@@ -1,18 +1,18 @@
 {
   "users": [
     {
-      "FirstName": "bismillah AL",
-      "LastName": "rehman",
-      "Email": "raheemu@gmail.com",
-      "Password": "0123456q",
+      "FirstName": "murfda",
+      "LastName": "malik",
+      "Email": "one@gmail.com",
+      "telephone": "0321456987",
       "id": 1
     },
     {
-      "FirstName": "murfad",
-      "LastName": "malik",
-      "Email": "m@gmail.com",
-      "Password": "0123456789",
-      "id": 3
+      "FirstName": "murtaza",
+      "LastName": "ahmed",
+      "Email": "two@gmail.com",
+      "telephone": "0321654789",
+      "id": 2
     }
   ]
 }

@@ -23,7 +23,7 @@ const initialValue = {
   FirstName: "",
   LastName: "",
   Email: "",
-  Password: "",
+  telephone: "",
 };
 function AddUser() {
   const [user, setUser] = useState(initialValue);
@@ -36,7 +36,7 @@ function AddUser() {
   const addUserDetails = async () => {
     await addUser(user);
     navigate('/alluser')
-    console.log("btn hit hogya", Date.now());
+    // console.log("btn hit hogya", Date.now());
   };
   return (
     <Container>
@@ -54,8 +54,8 @@ function AddUser() {
         <Input onChange={(e) => onValueChange(e)} name="Email" />
       </FormControl>
       <FormControl>
-        <InputLabel>Password</InputLabel>
-        <Input onChange={(e) => onValueChange(e)} name="Password" />
+        <InputLabel>Telephon</InputLabel>
+        <Input onChange={(e) => onValueChange(e)} name="telephone" />
       </FormControl>
       <Button onClick={() => addUserDetails()} variant="contained">
         Add User

@@ -23,7 +23,7 @@ const initialValue = {
   FirstName: "",
   LastName: "",
   Email: "",
-  Password: "",
+  telephone: "",
 };
 function EditUser() {
   const [user, setUser] = useState(initialValue);
@@ -48,7 +48,7 @@ function EditUser() {
   const editUserDetails = async () => {
     await editUser(user, id);
     navigate("/alluser");
-    console.log("btn hit hogya", Date.now());
+    // console.log("btn hit hogya", Date.now());
   };
   return (
     <Container>
@@ -78,11 +78,11 @@ function EditUser() {
         />
       </FormControl>
       <FormControl>
-        <InputLabel>Password</InputLabel>
+        <InputLabel>telephone</InputLabel>
         <Input
           onChange={(e) => onValueChange(e)}
-          name="Password"
-          value={user.Password}
+          name="telephone"
+          value={user.telephone}
         />
       </FormControl>
       <Button onClick={() => editUserDetails()} variant="contained">

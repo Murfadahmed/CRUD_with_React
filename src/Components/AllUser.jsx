@@ -50,7 +50,7 @@ function AllUser() {
           <TableCell>First Name</TableCell>
           <TableCell>last Name</TableCell>
           <TableCell>Email</TableCell>
-          <TableCell>Password</TableCell>
+          <TableCell>Telephone</TableCell>
           <TableCell></TableCell>
         </Thead>
       </TableHead>
@@ -61,7 +61,7 @@ function AllUser() {
             <TableCell>{user.FirstName}</TableCell>
             <TableCell>{user.LastName}</TableCell>
             <TableCell>{user.Email}</TableCell>
-            <TableCell>{user.Password}</TableCell>
+            <TableCell>{user.telephone}</TableCell>
             <TableCell>
               <Button
                 variant="contained"
